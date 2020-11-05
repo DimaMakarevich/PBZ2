@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="384.0" prefWidth="561.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.EditTechStaffController">
+   <children>
+      <TextField fx:id="idTechStaffTextField" layoutX="300.0" layoutY="117.0" />
+      <TextField fx:id="snpTechStaffTextField" layoutX="300.0" layoutY="155.0" />
+      <Button fx:id="backButton" layoutX="173.0" layoutY="304.0" mnemonicParsing="false" text="Назад" />
+      <Button fx:id="editButton" layoutX="353.0" layoutY="304.0" mnemonicParsing="false" text="Редактировать" />
+      <Label layoutX="33.0" layoutY="37.0" prefHeight="17.0" prefWidth="267.0" text="Реадактировать тех. персонал" />
+      <Label layoutX="83.0" layoutY="121.0" prefHeight="17.0" prefWidth="106.0" text="id" />
+      <Label layoutX="83.0" layoutY="204.0" prefHeight="17.0" prefWidth="98.0" text="Должность" />
+      <Label layoutX="83.0" layoutY="167.0" text="ФИО" />
+      <TextField fx:id="positionTechStaffTextField" layoutX="300.0" layoutY="200.0" />
+   </children>
+</Pane>

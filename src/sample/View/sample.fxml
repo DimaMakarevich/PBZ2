@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" prefHeight="376.0" prefWidth="393.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="18.4" minHeight="18.4" prefHeight="18.4" />
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="318.0" prefWidth="394.0" GridPane.rowIndex="4">
+         <children>
+            <Button fx:id="operationProductionSiteButton" layoutX="60.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="295.0" text="Операции над производственными участками" />
+            <Button fx:id="operationEquipmentButton" layoutX="60.0" layoutY="59.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="295.0" text="Операции над оборудованием" />
+            <Button fx:id="operationTechnicalInspectionButton" layoutX="60.0" layoutY="104.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="295.0" text="Операции над технисческом осмотре" />
+            <Button fx:id="operationStaffButton" layoutX="60.0" layoutY="150.0" mnemonicParsing="false" text="Операции над сотрудниками технического отдела" />
+            <Button fx:id="listFailedEquipmentButton" layoutX="58.0" layoutY="192.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="295.0" text="Список отказавшего оборудования" />
+            <Button fx:id="historyTechInspectionButton" layoutX="58.0" layoutY="239.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="295.0" text="Историч тех. осмотров" />
+            <Button fx:id="listStaffTechDepartmentButton" layoutX="58.0" layoutY="281.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="295.0" text="Сотрудники тех. отдела" />
+         </children>
+      </Pane>
+      <Label prefHeight="18.0" prefWidth="270.0" text="Учет отказа оборудования">
+         <padding>
+            <Insets left="120.0" />
+         </padding>
+      </Label>
+   </children>
+</GridPane>

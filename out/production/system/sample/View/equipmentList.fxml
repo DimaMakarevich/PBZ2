@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.EquipmentListController">
+   <children>
+      <Pane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="498.0">
+         <children>
+            <TableView fx:id="equipmentTableView" layoutX="136.0" layoutY="62.0" prefHeight="191.0" prefWidth="253.0">
+               <columns>
+                  <TableColumn fx:id="idColumn" prefWidth="128.79999542236328" text="id" />
+                  <TableColumn fx:id="titleColumn" prefWidth="127.20001220703125" text="Title" />
+               </columns>
+            </TableView>
+            <Button fx:id="addButton" layoutX="136.0" layoutY="302.0" mnemonicParsing="false" text="Добавить" />
+            <Button fx:id="deleteButton" layoutX="233.0" layoutY="302.0" mnemonicParsing="false" text="Удалить" />
+            <Button fx:id="editButton" layoutX="324.0" layoutY="302.0" mnemonicParsing="false" text="Редактировать" />
+            <Button fx:id="backButton" layoutX="50.0" layoutY="302.0" mnemonicParsing="false" text="Назад" />
+            <Label layoutX="188.0" layoutY="25.0" prefHeight="17.0" prefWidth="122.0" text="Production Sites" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
